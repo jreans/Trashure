@@ -1,0 +1,142 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+.rectangle-div8,
+.rectangle-div9 {
+  position: absolute;
+  top: -30px;
+  left: 0;
+  background-color: var(--color-teal-200);
+  width: 1453px;
+  height: 115px;
+}
+.rectangle-div9 {
+  top: 85px;
+  left: -125px;
+  background-color: var(--color-teal-100);
+  width: 474px;
+  height: 959px;
+}
+.about-div2 {
+  position: absolute;
+  top: 22px;
+  left: 820px;
+  display: inline-block;
+  width: 122px;
+  height: 43px;
+}
+.sign-out-div2 {
+  left: 1247px;
+  width: 167px;
+  height: 43px;
+}
+.how-it-works2,
+.sign-out-div2,
+.trashure-div2 {
+  position: absolute;
+  top: 22px;
+  display: inline-block;
+}
+.trashure-div2 {
+  left: 18px;
+  font-size: var(--font-size-lg);
+  width: 188px;
+  height: 29px;
+}
+.how-it-works2 {
+  left: 980px;
+  width: 229px;
+  height: 43px;
+}
+.availability-div1,
+.borrowing-history-div1,
+.category-div1,
+.filters-div1 {
+  position: absolute;
+  top: 178px;
+  left: 18px;
+  color: var(--color-gray-100);
+  display: inline-block;
+  width: 261px;
+  height: 26px;
+}
+.availability-div1,
+.borrowing-history-div1,
+.category-div1 {
+  top: 246px;
+  font-size: var(--font-size-sm);
+}
+.availability-div1,
+.borrowing-history-div1 {
+  top: 410px;
+}
+.borrowing-history-div1 {
+  top: 624px;
+}
+.rectangle-div10 {
+  position: absolute;
+  top: 124px;
+  left: 381px;
+  background-color: var(--color-gray-200);
+  width: 1006px;
+  height: 109px;
+}
+.div1,
+.image-2-div2 {
+  position: absolute;
+  top: 334px;
+  left: 935px;
+  width: 60px;
+  height: 69px;
+}
+.div1 {
+  top: 129px;
+  left: 420px;
+  font-size: var(--font-size-2xl);
+  display: inline-block;
+  width: 121px;
+  height: 139px;
+}
+.rectangle-div11,
+.rectangle-div12,
+.rectangle-div13 {
+  position: absolute;
+  top: 485px;
+  left: 677px;
+  background-color: var(--color-gray-200);
+  width: 348px;
+  height: 81px;
+}
+.rectangle-div12,
+.rectangle-div13 {
+  top: 512px;
+  left: 682px;
+  width: 298px;
+  height: 54px;
+}
+.rectangle-div13 {
+  top: 625px;
+  left: 742px;
+  background-color: var(--color-teal-100);
+  width: 283px;
+  height: 74px;
+}
+.borrow-div1 {
+  position: absolute;
+  top: 645px;
+  left: 800px;
+  text-align: center;
+  display: inline-block;
+}
+.feed-div {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 1024px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-white);
+  font-family: var(--font-manjari);
+}

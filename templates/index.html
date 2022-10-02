@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <title></title>
+    <meta name="description" content="" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./index.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Manjari:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Mandali:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="lend-div">
+      <div class="rectangle-div"></div>
+      <div class="about-div">About</div>
+      <div class="sign-out-div">Sign out</div>
+      <div class="trashure-div">trashure</div>
+      <div class="how-it-works">How it works</div>
+      <div class="image-2-div"></div>
+      <div class="rectangle-div1"></div>
+      <div class="add-a-picture">Add a picture</div>
+      <button class="rectangle-button" id="rectangleButton"></button>
+      <div class="post-div">Post</div>
+    </div>
+
+    <script>
+      var rectangleButton = document.getElementById("rectangleButton");
+      if (rectangleButton) {
+        rectangleButton.addEventListener("click", function (e) {
+          window.location.href = "./Feed.html";
+        });
+      }
+      </script>
+  </body>
+</html>

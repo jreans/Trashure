@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+.rectangle-div {
+  position: absolute;
+  top: -30px;
+  left: 0;
+  background-color: var(--color-teal-200);
+  width: 1453px;
+  height: 115px;
+}
+.about-div {
+  position: absolute;
+  top: 22px;
+  left: 820px;
+  display: inline-block;
+  width: 122px;
+  height: 43px;
+}
+.sign-out-div {
+  left: 1247px;
+  width: 167px;
+  height: 43px;
+}
+.how-it-works,
+.sign-out-div,
+.trashure-div {
+  position: absolute;
+  top: 22px;
+  display: inline-block;
+}
+.trashure-div {
+  left: 18px;
+  font-size: var(--font-size-lg);
+  width: 188px;
+  height: 29px;
+}
+.how-it-works {
+  left: 980px;
+  width: 229px;
+  height: 43px;
+}
+.image-2-div,
+.rectangle-div1 {
+  position: absolute;
+  top: 182px;
+  left: 578px;
+  width: 60px;
+  height: 69px;
+}
+.rectangle-div1 {
+  top: 124px;
+  left: 39px;
+  background-color: var(--color-gray-200);
+  width: 247px;
+  height: 252px;
+}
+.add-a-picture {
+  position: absolute;
+  top: 227px;
+  left: calc(50% - 720px);
+  font-size: var(--font-size-sm);
+  color: var(--color-black);
+  text-align: center;
+  display: inline-block;
+  width: 324px;
+  height: 99px;
+}
+.rectangle-button {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-teal-100);
+  position: absolute;
+  top: 555px;
+  left: 578px;
+  width: 314px;
+  height: 98px;
+}
+.post-div {
+  position: absolute;
+  top: 588px;
+  left: 621px;
+  font-size: 36px;
+  color: var(--color-gray-100);
+  text-align: center;
+  display: inline-block;
+  width: 217px;
+  height: 54px;
+}
+.lend-div {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 1024px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-white);
+  font-family: var(--font-manjari);
+}
